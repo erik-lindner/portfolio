@@ -54,7 +54,7 @@
   }
 
   .skillsInfoWrapper>div {
-    height: auto;
+    min-height: 13.5rem;
     flex-basis: 48%;
   }
 }
