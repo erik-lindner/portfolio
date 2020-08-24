@@ -94,6 +94,11 @@
     margin: 2rem 0;
   }
 
+  .inProgress {
+    font-size: 4vmin;
+    line-height: 5vmin;
+  }
+
   .immorealDetails, .jacDetails, .vierGewinntDetails, .simonDetails {
     overflow: scroll;
   }
