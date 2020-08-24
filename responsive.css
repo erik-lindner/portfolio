@@ -72,11 +72,11 @@
     text-align: center;
   }
 
-  .skillsInfoWrapper>div>p, .projekteInfoWrapper>div>div>p {
+  .skillsInfoWrapper>div>p, .projekteInfoWrapper>div>div>p, .projekteInfoWrapper p.projectStatus {
     font-size: 3vmin;
   }
 
   .projekteInfoWrapper>div {
-    min-height: 15rem;
+    min-height: 17rem;
   }
 }
