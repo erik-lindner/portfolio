@@ -83,4 +83,13 @@
   .projekteInfoWrapper>div {
     min-height: 17rem;
   }
+
+  .projekteDetailsWrapper {
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+
+  .projekteDetailsWrapper>div:last-child {
+    flex-basis: 80vw;
+  }
 }
