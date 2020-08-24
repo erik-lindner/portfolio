@@ -106,4 +106,16 @@
     font-size: 4vmin;
     line-height: 3rem;
   }
+
+  .aboutMeShortInfo>div {
+    flex-basis: 100%;
+  }
+
+  .aboutMeShortInfo>div>span:first-child {
+    width: 9rem;
+  }
+
+  .aboutMeInfoWrapper button, .aboutMeShortInfo {
+    font-size: 3vmin;
+  }
 }
