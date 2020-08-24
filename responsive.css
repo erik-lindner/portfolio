@@ -93,4 +93,16 @@
     flex-basis: 80vw;
     margin-top: 2rem;
   }
+
+  .projekteDetailsWrapper h1 {
+    font-size: 4vmin;
+  }
+
+  .projekteDetailsWrapper p {
+    font-size: 3vmin;
+  }
+
+  .projekteDetailsWrapper button {
+    font-size: 4vmin;
+  }
 }
