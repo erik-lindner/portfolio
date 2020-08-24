@@ -55,6 +55,6 @@
 
   .skillsInfoWrapper>div {
     height: auto;
-    width: 48%;
+    flex-basis: 48%;
   }
 }
