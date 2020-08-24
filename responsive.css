@@ -55,10 +55,12 @@
 
   .skillsInfoWrapper>div {
     min-height: 13.5rem;
+    height: auto;
     flex-basis: 48%;
   }
 
   .skillsInfoWrapper>div>h1, .projekteInfoWrapper>div>div>h1 {
     font-size: 4vmin;
+    text-align: center;
   }
 }
