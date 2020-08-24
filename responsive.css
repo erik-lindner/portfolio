@@ -86,10 +86,11 @@
 
   .projekteDetailsWrapper {
     flex-wrap: wrap;
-    margin: 2rem 0;
+    margin: 0 0;
   }
 
   .projekteDetailsWrapper>div:last-child {
     flex-basis: 80vw;
+    margin-top: 2rem;
   }
 }
