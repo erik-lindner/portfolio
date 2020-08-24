@@ -64,7 +64,11 @@
     text-align: center;
   }
 
-  .projekteInfoWrapper>div>div>p {
-    font-size: 2vmin;
+  .skillsInfoWrapper>div>p, .projekteInfoWrapper>div>div>p {
+    font-size: 3vmin;
+  }
+
+  .projekteInfoWrapper>div {
+    min-height: 15rem;
   }
 }
