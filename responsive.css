@@ -52,4 +52,9 @@
     margin: 1rem 3rem;
     margin-top: 4rem;
   }
+
+  .skillsInfoWrapper>div {
+    height: auto;
+    width: 48%;
+  }
 }
