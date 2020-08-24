@@ -98,16 +98,12 @@
     overflow: scroll;
   }
 
-  .projekteDetailsWrapper h1 {
-    font-size: 4vmin;
+  .projekteDetailsWrapper h1, .projekteDetailsWrapper button {
+    font-size: 5vmin;
   }
 
   .projekteDetailsWrapper p, .projekteDetailsWrapper .projektDetailsTechno {
-    font-size: 3vmin;
-    line-height: 2.5rem;
-  }
-
-  .projekteDetailsWrapper button {
     font-size: 4vmin;
+    line-height: 3rem;
   }
 }
