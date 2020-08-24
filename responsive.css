@@ -34,6 +34,11 @@
     margin-top: 2rem;
   }
 
+  .meinName>img {
+    width: 25rem;
+    height: 25rem;
+  }
+
   .sectionContentWidth>h1, .sectionContentWidth>p {
     text-align: center;
     width: 100%;
