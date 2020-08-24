@@ -16,7 +16,24 @@
   }
 
   header>nav>div>a {
-    margin-top: 0.5rem;
-    font-size: 2rem;
+    margin: 1rem 0;
+    font-size: 4vh;
+  }
+
+  .meinName>div:last-of-type {
+    font-size: 3vh;
+  }
+
+  .aboutMeInfoWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .aboutMeInfoWrapper>div {
+    margin-top: 2rem;
+  }
+
+  .sectionContentWidth>h1, .sectionContentWidth>p {
+    text-align: center;
   }
 }
