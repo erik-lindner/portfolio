@@ -623,12 +623,12 @@ nav>.navPlaceholder>a>img:hover {
 .projekteInfoWrapper>div>div {
   position: absolute;
   bottom: 1.5rem;
-  text-decoration: underline;
   color: white;
 }
 
 .projekteInfoWrapper>div>div>h1 {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .projekteInfoWrapper>div>img {
