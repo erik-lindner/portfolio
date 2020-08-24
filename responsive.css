@@ -63,4 +63,8 @@
     font-size: 4vmin;
     text-align: center;
   }
+
+  .projekteInfoWrapper>div>div>p {
+    font-size: 2vmin;
+  }
 }
