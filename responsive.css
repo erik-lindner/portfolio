@@ -9,6 +9,7 @@
     margin: 0;
     justify-content: space-around;
     height: auto;
+    padding: 1rem 0;
   }
 
   nav>.navPlaceholder {
@@ -36,6 +37,14 @@
   .sectionContentWidth>h1, .sectionContentWidth>p {
     text-align: center;
     width: 100%;
+  }
+
+  .sectionContentWidth>h1 {
+    font-size: 4vmin;
+  }
+
+  .sectionContentWidth>p {
+    font-size: 2vmin;
   }
 
   .sectionContentWidth {
