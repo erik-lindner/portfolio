@@ -35,5 +35,14 @@
 
   .sectionContentWidth>h1, .sectionContentWidth>p {
     text-align: center;
+    width: 100%;
+  }
+
+  .sectionContentWidth {
+    width: 100vw;
+  }
+
+  .skillsInfoWrapper {
+    margin: 1rem 3rem;
   }
 }
