@@ -11,7 +11,7 @@
 
   header>nav, footer>nav {
     margin: 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: auto;
     padding: 2rem 0;
   }
