@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  header {
+    position: initial;
+  }
+
   header>nav, footer>nav {
     margin: 0;
     justify-content: space-around;
