@@ -104,6 +104,7 @@
 
   .projekteDetailsWrapper p, .projekteDetailsWrapper .projektDetailsTechno {
     font-size: 3vmin;
+    line-height: 2.5rem;
   }
 
   .projekteDetailsWrapper button {
