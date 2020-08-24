@@ -1,0 +1,22 @@
+@media screen and (max-width: 1150px) {
+  .skillsWrapper .klickMich {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header>nav, footer>nav {
+    margin: 0;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  nav>.navPlaceholder {
+    display: none;
+  }
+
+  header>nav>div>a {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+}

@@ -44,8 +44,8 @@ header>nav, footer>nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 3rem;
   margin: 0 10rem;
+  padding: 0.5rem 0;
 }
 
 header>nav>div:not(:first-child), footer>nav>div {
@@ -103,6 +103,7 @@ nav>.navPlaceholder>a>img:hover {
   background-image: url('images/webDevBackground.jpg');
   background-size: cover;
   transition: background-image 2s;
+  background-position: center;
 }
 
 .meinName {
