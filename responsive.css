@@ -21,10 +21,6 @@
     font-size: 5vmin;
   }
 
-  .meinName>div:last-of-type {
-    font-size: 3vh;
-  }
-
   .aboutMeInfoWrapper {
     flex-wrap: wrap;
     justify-content: center;
@@ -45,7 +41,7 @@
 
   .sectionContentWidth>p {
     font-size: 4vmin;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
 
   .sectionContentWidth {
