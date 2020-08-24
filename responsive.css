@@ -59,6 +59,14 @@
     flex-basis: 48%;
   }
 
+  .projekteInfoWrapper {
+    justify-content: center;
+  }
+
+  .projekteInfoWrapper>div {
+    flex-basis: 70%;
+  }
+
   .skillsInfoWrapper>div>h1, .projekteInfoWrapper>div>div>h1 {
     font-size: 4vmin;
     text-align: center;
