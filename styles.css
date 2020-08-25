@@ -100,7 +100,7 @@ nav>.navPlaceholder>a>img:hover {
 }
 
 .meinNameWrapper {
-  background-image: url('images/webDevBackground.jpg');
+  background-image: url('images/home/webDevBackground3.jpg');
   background-size: cover;
   transition: background-image 2s;
   background-position: center;
