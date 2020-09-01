@@ -100,7 +100,7 @@ nav>.navPlaceholder>a>img:hover {
 }
 
 .meinNameWrapper {
-  background-image: url('images/home/webDeveloper3.jpg');
+  background-image: url('images/webDevBackground.jpg');
   background-size: cover;
   transition: background-image 2s;
   background-position: center;
@@ -631,7 +631,7 @@ nav>.navPlaceholder>a>img:hover {
   text-decoration: underline;
 }
 
-.projekteInfoWrapper>div>img {
+.projekteInfoWrapper>div>img, .projekteInfoWrapper>div>button {
   margin-top: -4rem;
 }
 
@@ -749,7 +749,54 @@ nav>.navPlaceholder>a>img:hover {
   }
 }
 
-.immorealDetails, .jacDetails, .vierGewinntDetails, .simonDetails {
+.projekteInfoWrapper>div:nth-child(5) {
+  background-color: crimson;
+  border: 5px solid crimson;
+  box-shadow: inset 5px 5px 10px #bb1133, inset -5px -5px 10px #fd1745;
+}
+
+.crazyButton {
+  padding: 1rem 1rem;
+  background-color: crimson;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 10px #bb1133, -5px -5px 10px #fd1745;
+  border-radius: 2rem;
+  animation: buttonAni 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes buttonAni {
+  0% {
+    transform: scale(1.2);
+  }
+
+  40% {
+    transform: scale(0.9);
+  }
+
+  45% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  55% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.immorealDetails, .jacDetails, .vierGewinntDetails, .simonDetails, .fancyButtonDetails {
   position: fixed;
   top: 0;
   left: 0;
@@ -803,6 +850,10 @@ nav>.navPlaceholder>a>img:hover {
   background-color: rgba(0, 191, 255, 0.8);
 }
 
+.fancyButtonDetails {
+  background-color: rgba(220, 20, 60, 0.8);
+}
+
 .projekteDetailsWrapper {
   display: flex;
   justify-content: center;
@@ -845,6 +896,11 @@ nav>.navPlaceholder>a>img:hover {
   animation: simonGame 4s infinite linear;
 }
 
+.fancyButtonDetails .projekteDetailsWrapper>div:first-child>button {
+  align-self: center;
+  margin-top: 0;
+}
+
 .jacDetails .projekteDetailsWrapper>div:first-child>img {
   box-shadow: 5px 5px 10px #db7800, -5px -5px 10px #ffa000;
 }
@@ -871,6 +927,21 @@ nav>.navPlaceholder>a>img:hover {
 
 .simonDetails .projekteDetailsWrapper>div:first-child>img {
   box-shadow: 5px 5px 10px #00a2d9, -5px -5px 10px #00dcff;
+}
+
+.fancyButtonDetails .projekteDetailsWrapper>div:first-child {
+  background-color: crimson;
+  box-shadow: 5px 5px 10px #bb1133,
+    -5px -5px 10px #fd1745, inset 5px 5px 10px #bb1133,
+    inset -5px -5px 10px #fd1745;
+  border: 5px solid crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancyButtonDetails .projekteDetailsWrapper>div:first-child>img {
+  box-shadow: 5px 5px 10px #bb1133, -5px -5px 10px #fd1745;
 }
 
 .projekteDetailsWrapper>div:last-child {
@@ -948,6 +1019,17 @@ nav>.navPlaceholder>a>img:hover {
 .simonButton:hover {
   box-shadow: 10px 10px 20px #00a2d9,
     -10px -10px 20px #00dcff;
+}
+
+.fancyButton {
+  background-color: crimson;
+  box-shadow: 5px 5px 10px #bb1133,
+    -5px -5px 10px #fd1745;
+}
+
+.fancyButton:hover {
+  box-shadow: 10px 10px 20px #bb1133,
+    -10px -10px 20px #fd1745;
 }
 
 @keyframes projekteDetailsFlipOpen {
