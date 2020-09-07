@@ -79,7 +79,7 @@
   .skillsInfoWrapper>div>h1, .projekteInfoWrapper>div>div>h1 {
     font-size: 4vmin;
     text-align: center;
-    line-height: 2.2rem;
+    line-height: 2.8rem;
   }
 
   .skillsInfoWrapper>div>p, .projekteInfoWrapper>div>div>p, .projekteInfoWrapper p.projectStatus {
