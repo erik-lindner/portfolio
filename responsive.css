@@ -134,6 +134,11 @@
     font-size: 3vmin;
   }
 
+  .contactWrapper h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
   form {
     width: 50%;
     transform-origin: left;
