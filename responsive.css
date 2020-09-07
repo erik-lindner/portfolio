@@ -118,6 +118,10 @@
     line-height: 3rem;
   }
 
+  .projekteH1 br {
+    display: none;
+  }
+
   .aboutMeShortInfo>div {
     flex-basis: 100%;
   }
