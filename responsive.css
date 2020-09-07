@@ -140,6 +140,7 @@
   }
 
   .contactWrapper form>div:last-of-type>label {
+    margin-bottom: 0.5rem;
     width: 100%;
   }
 
