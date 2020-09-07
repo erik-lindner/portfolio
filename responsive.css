@@ -135,16 +135,16 @@
   }
 
   form {
+    width: 50%;
     transform-origin: left;
     transform: scale(1.3);
   }
 
   .contactWrapper form>div:last-of-type>label {
     margin-bottom: 0.5rem;
-    width: 100%;
   }
 
   .contactWrapper textarea {
-    width: 50%;
+    width: 100%;
   }
 }
